@@ -268,24 +268,19 @@ export const Categorias: React.FC = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center bg-gradient-to-r from-pink-500 to-orange-500 text-white px-6 py-3 rounded-full mb-6 font-bold">
-            📋 NOSSO CARDÁPIO COMPLETO
+            📋 Todas as categoria
           </div>
 
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-800 mb-4">
-            Explore Nossos
+            Descubra o poder da tecnologia em cada passo em nossos{" "}
             <span className="bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent block sm:inline sm:ml-4">
-              Sabores
+              Calçados
             </span>
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Mais de{" "}
-            <span className="font-bold text-pink-600">
-              100 opções deliciosas
-            </span>{" "}
+            Mais de <span className="font-bold text-pink-600">100 opções</span>{" "}
             organizadas por categoria.
-            <br />
-            Clique nas abas e descubra nossos produtos artesanais!
           </p>
         </div>
 
