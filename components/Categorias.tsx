@@ -385,11 +385,9 @@ export const Categorias: React.FC = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-pink-500 to-orange-500 rounded-3xl p-8 text-white shadow-2xl">
             <h3 className="text-3xl font-bold mb-4">
-              💝 Não achou o que procurava?
+              Não achou o que procurava?
             </h3>
-            <p className="text-xl mb-6">
-              Fazemos produtos personalizados sob encomenda!
-            </p>
+            <p className="text-xl mb-6">Entre em contato conosco!</p>
             <button className="bg-white text-pink-600 font-bold py-4 px-8 rounded-full text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:scale-105 transform">
               <MessageCircle className="w-6 h-6 inline mr-2" />
               Fale Conosco
