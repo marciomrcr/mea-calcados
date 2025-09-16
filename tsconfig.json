@@ -20,8 +20,14 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    // Otimizações para performance
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "useDefineForClassFields": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", ".next", "out"],
+  "ts-node": {
+    "esm": true
+  }
 }
